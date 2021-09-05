@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <h1 id="title"> Coding Survey Form</h1>
+
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+  <div id="body">
+
+    <form id="survey-form">
+
+      <label id="name-label" for="name">
+        <p>1. Name:</p>
+      </label>
+
+      <input id="name" type="text" placeholder="Enter Your Name" required>
+
+
+      <label id="email-label" for="email">
+        <p>2. Email:</p>
+      </label>
+
+      <input id="email" type="email" placeholder="Enter Your Email" required>
+
+      <label id="number-label" for="number">
+        <p>3. Age:</p>
+      </label>
+
+      <input id="number" type="number" placeholder="Enter Your Age" min="12" max="50" required>
+
+      <p>4. Which Option best describes you?</p>
+      <select id="dropdown">
+
+        <option value="default">Student</option>
+        <option value="He has a moral center.">Intern</option>
+        <option value="He stands for something.">Professional</option>
+        <option value="He shuns the limelight.">Other</option>
+        <option value="He protects his team."></option>
+        <option value="He adapts to strengths and weaknesses."></option>
+
+      </select>
+
+      <p>5. Would you recommed Coding
+        to a friend?</p>
+
+      <input type="radio" name="movie" value="1">Yes</input>
+      <br>
+      <input type="radio" name="movie" value="2">No</input>
+      <br>
+      <input type="radio" name="movies" value="3">Maybe</input>
+      <br>
+
+      <p>6. Languages and Frameworks known
+        <small>(Check all that apply)</small>
+      </p>
+
+
+      <input type="checkbox" name="avenger" value="1">C</input>
+      <br>
+      <input type="checkbox" name="avengers" value="2">C++</input>
+      <br>
+      <input type="checkbox" name="avengers" value="3">Python</input>
+      <br>
+      <input type="checkbox" name="avengers" value="4">JavaScript</input>
+      <br>
+      <input type="checkbox" name="avengers" value="5">C#</input>
+      <br>
+      <input type="checkbox" name="avengers" value="5">Java</input>
+      <br>
+      <input type="checkbox" name="avengers" value="5">React</input>
+      <br>
+      <input type="checkbox" name="avengers" value="5">Angular</input>
+      <br>
+      <input type="checkbox" name="avengers" value="5">Django</input>
+      <br>
+      <input type="checkbox" name="avengers" value="5">Spring</input>
+      <br>
+      <br>
+
+      <textarea id="comment" rows="4" cols="40" placeholder="-- Add Your Comment Here --"></textarea>
+      <br>
+      
+      <div id="button">
+      <!-- <input id="submit" type="submit" value="Submit"> -->
+      <button id="submitbutton">
+        Submit
+      </button>
+      </div>
+
+    </form>
+
+  </div>
+
+
+
+</body>
+
+</html>
