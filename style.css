@@ -8,7 +8,7 @@ body{
   }
 
   html {
-    background: url(/giphy.gif) no-repeat center center fixed;
+    background: url(giphy.gif) no-repeat center center fixed;
     background-size: cover;
 }
 
